@@ -11,6 +11,7 @@ import { App7 } from './components/App7';
 import { App8 } from './components/App8';
 import { App9 } from './components/App9';
 import { App10 } from './components/App10';
+import { App11 } from './components/App11';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Link className='app8' to="app8">App8</Link>
       <Link className='app9' to="app9">App9</Link>
       <Link className='app10' to="app10">App10</Link>
+      <Link className='app11' to="app11">App11</Link>
     </div>
     <hr></hr>
     <div>

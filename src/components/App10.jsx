@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function App10() {
-    const [msg,setMsg]=useState(0);
-    const handleSubmit=()=>{
-        setMsg('Submitted Successfully');
-    }
+    const [num,setNum]=useState(0);
+    const pRef=useRef();
+    const numRef=useRef(0);
+    useEffect(()=>{
+        if(numRef.current>num){
+            pRef.current.style.color='red';
+        }
+        else{
+            pRef.current.style.color='green';
+        }
+        numRef.current=num;
+    },
+    [num]);
     return (
         <div className="bottem_content10">
-            <input type="number" onChange={(e)=>setMsg(e.target.value)}></input>
-            <button onClick={handleSubmit}>Submit</button>
+            <input type="number" onChange={(e)=>setNum(e.target.value)}></input>
             <hr></hr>
-            <p>{msg}</p>
+            <p ref={pRef}>{num}</p>
         </div>
 
     )
