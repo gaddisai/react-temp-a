@@ -7,7 +7,10 @@ import { App3 } from './components/App3';
 import { App4 } from './components/App4';
 import { App5 } from './components/App5';
 import { App6 } from './components/App6';
+import { App7 } from './components/App7';
+import { App8 } from './components/App8';
 import { App9 } from './components/App9';
+import { App10 } from './components/App10';
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
       <Link className='app4' to="app4">App4</Link>
       <Link className='app5' to="app5">App5</Link>
       <Link className='app6' to="app6">App6</Link>
+      <Link className='app7' to="app7">App7</Link>
+      <Link className='app8' to="app8">App8</Link>
       <Link className='app9' to="app9">App9</Link>
+      <Link className='app10' to="app10">App10</Link>
     </div>
     <hr></hr>
     <div>
@@ -32,7 +38,10 @@ function App() {
         <Route path='app4' element={<App4/>}></Route>
         <Route path='app5' element={<App5/>}></Route>
         <Route path='app6' element={<App6/>}></Route>
+        <Route path='app7' element={<App7/>}></Route>
+        <Route path='app8' element={<App8/>}></Route>
         <Route path='app9' element={<App9/>}></Route>
+        <Route path='app10' element={<App10/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>
