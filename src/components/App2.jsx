@@ -1,5 +1,6 @@
 import './App2.css';
 import { useState } from 'react';
+import './App2.css';
 function App2() {
     const [count, setCount] = useState(0);
     const increment=()=>{

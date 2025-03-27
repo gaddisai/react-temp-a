@@ -15,7 +15,7 @@ function App12() {
 
     return (
         <div className="bottom_content12">
-            <h3>This is App12</h3>
+            <h2>This is App12</h2>
             <button onClick={handleSubmit1}>child1</button>
             <button onClick={handleSubmit2}>child2</button>
         </div>
