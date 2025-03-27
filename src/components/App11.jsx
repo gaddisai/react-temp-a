@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 function App11(){
+    const navigate=useNavigate();
     const handleSubmit=()=>{
-        const navigate=useNavigate();
         navigate('/app5');
     }
     return(

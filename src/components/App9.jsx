@@ -9,7 +9,7 @@ function App9() {
         txtRef.current.style.color=color;
     }
     return (
-        <div className="bottem_content9">
+        <div className="bottom_content9">
             <input type="text" onChange={(e)=>setColor(e.target.value)}></input>
             <button onClick={handleSubmit}>Submit</button>
             <h2 ref={txtRef}>Hello World</h2>

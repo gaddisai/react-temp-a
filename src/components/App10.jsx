@@ -15,7 +15,7 @@ function App10() {
     },
     [num]);
     return (
-        <div className="bottem_content10">
+        <div className="bottom_content10">
             <input type="number" onChange={(e)=>setNum(e.target.value)}></input>
             <hr></hr>
             <p ref={pRef}>{num}</p>

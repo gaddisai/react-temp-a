@@ -1,4 +1,5 @@
 import React from "react";
+import "./App7.css";
 import { useState ,useEffect} from "react";
 function App7() {  
     const [a,setA]=useState(0);
