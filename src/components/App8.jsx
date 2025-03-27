@@ -17,7 +17,8 @@ function App8() {
             sum + Number(value), 0));
     }, [a]);
     return (
-        <div className="bottom_content8">App8
+        <div className="bottom_content8">
+            <h2>This is App8</h2>
             <p>
                 <input
                     type="number"

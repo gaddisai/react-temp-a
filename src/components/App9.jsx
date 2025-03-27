@@ -10,6 +10,7 @@ function App9() {
     }
     return (
         <div className="bottom_content9">
+            <h2>This is App9</h2>
             <input type="text" onChange={(e)=>setColor(e.target.value)}></input>
             <button onClick={handleSubmit}>Submit</button>
             <h2 ref={txtRef}>Hello World</h2>

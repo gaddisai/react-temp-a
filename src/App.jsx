@@ -13,6 +13,7 @@ import { App9 } from './components/App9';
 import { App10 } from './components/App10';
 import { App11 } from './components/App11';
 import { App12 } from './components/App12';
+import { App13 } from './components/App13';
 import { Child1 } from './components/Child1';
 import { Child2 } from './components/Child2';
 
@@ -33,6 +34,8 @@ function App() {
       <Link className='app10' to="app10">App10</Link>
       <Link className='app11' to="app11">App11</Link>
       <Link className='app12' to="app12">App12</Link>
+      <Link className='app12' to="app12">App12</Link>
+      <Link className='app13' to="app13">App13</Link>
     </div>
     <hr></hr>
     <div>
@@ -50,6 +53,7 @@ function App() {
         <Route path='app10' element={<App10/>}></Route>
         <Route path='app11' element={<App11/>}></Route>
         <Route path='app12' element={<App12/>}></Route>
+        <Route path='app13' element={<App13/>}></Route>
         <Route path='/child1' element={<Child1/>}></Route>
         <Route path='/child2' element={<Child2/>}></Route>
       </Routes>

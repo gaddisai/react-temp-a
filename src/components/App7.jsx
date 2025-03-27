@@ -15,7 +15,7 @@ function App7() {
       },[b]);
 
   return (
-    <div className="bottom_content7"><h3>this is app7</h3>
+    <div className="bottom_content7"><h2>This is app7</h2>
     <p><input type="number" placeholder='Enter A' onChange={(e)=>setA(e.target.value)}/></p>
     <p><input type="number" placeholder='Enter B' onChange={(e)=>setB(e.target.value)} /></p>
     {/* <p><button onClick={handleSubmit}>Submit</button></p> */}

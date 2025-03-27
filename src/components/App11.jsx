@@ -8,7 +8,7 @@ function App11(){
     return(
         <div className="bottom_content11">
             <h3>This is App11</h3>
-            <button onclick={handleSubmit}>Goto App5</button>
+            <button onClick={handleSubmit}>Goto App5</button>
         </div>
     )
 }

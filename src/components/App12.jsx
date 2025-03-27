@@ -21,5 +21,4 @@ function App12() {
         </div>
     );
 }
-
 export { App12 };
