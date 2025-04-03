@@ -1,17 +1,40 @@
 import React from 'react'
-
+import {useMemo, useState} from 'react'
+import './App18.css'
 function App18() {
-  return (
-    <>
-        <div className='bottom_content18'>
-            <h2>This is App18</h2>
-            <div>
-                {/* <FaHome size={15}/>
-                <label>Home</label> */}
-            </div>
-        </div>
-    </>
-  )
+    const [length, setLength] = useState(1000);
+    const [count, setCount] = useState(0);
+    //   const [result, setResult] = useState(0);
+  
+    //   const f1 = useMemo(() => {
+    //     let i;
+    //     for (i = 0; i < length ** 2; i++) {}
+    //     console.log("f1 function called");
+    //     return i;
+    //   }, [length]);
+  
+    const f1 = () => {
+      let i;
+      for (i = 0; i < length ** 2; i++) {}
+      console.log("f1 function called");
+      return i;
+    };
+  
+    const result = useMemo(() => f1(), [length]);
+    //   const result = f1()
+  
+    return (
+      <div className='bottom_content18'>
+        <h3>This is App18</h3>
+        <p>
+          <button onClick={() => setLength(length + 1)}>Length:({length})</button>
+          Calculated Value:{result}
+        </p>
+        <p>
+          <button onClick={() => setCount(count + 1)}>Count:{count}</button>
+        </p>
+      </div>
+    );
 }
 
 export {App18}

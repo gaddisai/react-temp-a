@@ -16,7 +16,12 @@ import { App12 } from './components/App12';
 import { App13 } from './components/App13';
 import { App14 } from './components/App14';
 import { App15 } from './components/App15';
+import { App16 } from './components/App16';
+import { App17 } from './components/App17';
+import { App18 } from './components/App18';
+import { App19 } from './components/App19';
 import { Child1 } from './components/Child1';
+import { Child } from './components/Child';
 import { Child2 } from './components/Child2';
 
 function App() {
@@ -39,6 +44,10 @@ function App() {
       <Link className='app13' to="app13">App13</Link>
       <Link className='app14' to="app14">App14</Link>
       <Link className='app15' to="app15">App15</Link>
+      <Link className='app16' to="app16">App16</Link>
+      <Link className='app17' to="app17">App17</Link>
+      <Link className='app18' to="app18">App18</Link>
+      <Link className='app19' to="app19">App19</Link>
     </div>
     <hr></hr>
     <div>
@@ -59,7 +68,12 @@ function App() {
         <Route path='app13' element={<App13/>}></Route>
         <Route path='app14' element={<App14/>}></Route>
         <Route path='app15' element={<App15/>}></Route>
+        <Route path='app16' element={<App16/>}></Route>
+        <Route path='app17' element={<App17/>}></Route>
+        <Route path='app18' element={<App18/>}></Route>
+        <Route path='app19' element={<App19/>}></Route>
         <Route path='/child1' element={<Child1/>}></Route>
+        <Route path='/child' element={<Child/>}></Route>
         <Route path='/child2' element={<Child2/>}></Route>
       </Routes>
     </div>
