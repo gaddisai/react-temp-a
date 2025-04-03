@@ -5,10 +5,10 @@ function App15() {
     <>
         <div className='bottom_content15'>
             <h2>This is App15</h2>
-            {/* <div>
-                <FaHome size={15}/>
-                <label>Home</label>
-            </div> */}
+            <div>
+                {/* <FaHome size={15}/>
+                <label>Home</label> */}
+            </div>
         </div>
     </>
   )
