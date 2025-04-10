@@ -22,6 +22,7 @@ import { App18 } from './components/App18';
 import { App19 } from './components/App19';
 import { App20 } from './components/App20';
 import { App21 } from './components/App21';
+import { App22 } from './components/App22';
 import { Child1 } from './components/Child1';
 import { Child } from './components/Child';
 import { Child2 } from './components/Child2';
@@ -52,6 +53,7 @@ function App() {
       <Link className='app19' to="app19">App19</Link>
       <Link className='app20' to="app20">App20</Link>
       <Link className='app21' to="app21 ">App21</Link>
+      <Link className='app22' to="app22 ">App22</Link>
     </div>
     <hr></hr>
     <div>
@@ -78,6 +80,7 @@ function App() {
         <Route path='app19' element={<App19/>}></Route>
         <Route path='app20' element={<App20/>}></Route>
         <Route path='app21' element={<App21/>}></Route>
+        <Route path='app22' element={<App22/>}></Route>
         <Route path='/child1' element={<Child1/>}></Route>
         <Route path='/child' element={<Child/>}></Route>
         <Route path='/child2' element={<Child2/>}></Route>
