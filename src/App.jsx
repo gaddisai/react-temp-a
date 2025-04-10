@@ -23,6 +23,7 @@ import { App19 } from './components/App19';
 import { App20 } from './components/App20';
 import { App21 } from './components/App21';
 import { App22 } from './components/App22';
+import { Inputs } from './components/Inputs';
 import { Child1 } from './components/Child1';
 import { Child } from './components/Child';
 import { Child2 } from './components/Child2';
@@ -81,6 +82,7 @@ function App() {
         <Route path='app20' element={<App20/>}></Route>
         <Route path='app21' element={<App21/>}></Route>
         <Route path='app22' element={<App22/>}></Route>
+        <Route path='/inputs' element={<Inputs/>}></Route>
         <Route path='/child1' element={<Child1/>}></Route>
         <Route path='/child' element={<Child/>}></Route>
         <Route path='/child2' element={<Child2/>}></Route>
